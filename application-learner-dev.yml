@@ -24,7 +24,6 @@ spring:
         max-idle: 8
         min-idle: 0
     timeout: 50000
-    password: dmcn
 
 
 mybatis-plus:
