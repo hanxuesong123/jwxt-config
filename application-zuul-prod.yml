@@ -5,13 +5,13 @@ spring:
     name: my-zuul
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.5.240:3306/kytms?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    url: jdbc:mysql://192.168.18.240:3306/kytms?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
     username: root
     password: root
 
   redis:
     database: 0
-    host: 192.168.5.210
+    host: 192.168.18.210
     port: 6379
     jedis:
       pool:
@@ -27,7 +27,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://192.168.5.210:56798/eureka/,http://192.168.5.210:56799/eureka/
+      defaultZone: http://192.168.18.210:56798/eureka/,http://192.168.18.210:56799/eureka/
   instance:
     prefer-ip-address: true
     instance-id: my_zuul8088
