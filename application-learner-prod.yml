@@ -15,7 +15,7 @@ spring:
     name: jwxt-learner #指定服务名
   redis:
     database: 0
-    host: 192.168.5.210
+    host: 192.168.18.210
     port: 6379
     jedis:
       pool:
